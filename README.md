@@ -1,6 +1,6 @@
 # portfolio
 
-> My astounding Nuxt.js project
+Personal website, written in Nuxt.js
 
 ## Build Setup
 
