@@ -1,7 +1,7 @@
 <template>
     <div class="project">
         <div class="img">
-            <img src="https://gradientjoy.com/150x150" alt="Image">
+            <img :src="imageURL" alt="Image">
         </div>
         <div class="content">
             <h3>{{title}}</h3>
@@ -46,6 +46,10 @@
 
     .project:hover {
         transform: scale(1.05);
+    }
+
+    img {
+        border: solid 1px #eeeeee;
     }
 
     h3 {

@@ -1,10 +1,12 @@
 <template>
   <section id="projects">
+      <a href="#projects"></a>
     <div class="content">
       <h1>Projects</h1>
       <Project title="Attendance System"
-                url="https://github.com/kglovern/attendanceMobile"
-                techs="Typescript, Express, Kotlin, Anko"
+               url="https://github.com/kglovern/attendanceMobile"
+               techs="Typescript, Express, Kotlin, Anko"
+               image-u-r-l="/attendance_thumb.png"
       >
         <ul>
           <li>Mobile app that can track attendance using the University of Guelph student card.</li>
@@ -15,6 +17,7 @@
       <Project title="Immediate Feedback System"
                url="https://github.com/ian-james/IFS"
                techs="Javascript, SQL, HTML, Python"
+               image-u-r-l="/ifs_thumb.png"
       >
         <ul>
           <li>Allows the running of multiple verification tools against uploaded student code or written english assignments in order to receive feedback about potential errors.</li>
@@ -25,6 +28,7 @@
       <Project title="Prokudin-Gorskii Registration"
                url="https://github.com/kglovern/pg_registration"
                techs="Python, Numpy, SciKit"
+               image-u-r-l="/gorskii_thumb.png"
       >
         <ul>
           <li>Algorithm for the automatic linear registration of the Prokudin-Gorskii image set.</li>
@@ -34,6 +38,7 @@
       <Project title="GEDCOM Parser"
                url="https://github.com/kglovern/GEDCOM-system"
                techs="C, Javascript, JQuery, SQL, HTML"
+               image-u-r-l="/gedcom_thumb.png"
       >
         <ul>
           <li>Web interface allowing the parsing of the GEDCOM genealogical format.</li>
@@ -60,7 +65,8 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #75b9be
+    background: #75b9be;
+    padding: 2em 0;
   }
   li {
     font-size: 0.8em;

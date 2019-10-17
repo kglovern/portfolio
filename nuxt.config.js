@@ -29,6 +29,7 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~plugins/v_scrollto.js'
   ],
   /*
   ** Nuxt.js dev-modules

@@ -1,5 +1,6 @@
 <template>
   <section id="about">
+    <a href="#about"></a>
     <div class="content">
       <div class="aboutWrapper">
         <div class="aboutMe">

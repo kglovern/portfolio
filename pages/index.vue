@@ -4,7 +4,6 @@
   <About />
   <Projects />
   <Contact />
-  <Footer />
 </main>
 </template>
 
@@ -21,12 +20,11 @@ export default {
     Hero,
     About,
     Contact,
-    Footer,
     Projects
   },
   head() {
     return {
-      title: 'If I press these buttons in the correct order, magic will happen'
+      title: 'If I press these buttons in the right order, magic will happen'
     }
   }
 }

@@ -1,10 +1,10 @@
 <template>
   <nav>
-    <a href="#">LOGO</a>
+      <img src="/logo.png" alt="Site logo">
     <div>
-      <a href="#">About Me</a>
-      <a href="#">Projects</a>
-      <a href="#">Contact</a>
+      <a href="#" v-scroll-to="'#about'">About Me</a>
+      <a href="#" v-scroll-to="'#projects'">Projects</a>
+      <a href="#" v-scroll-to="'#contact'">Contact</a>
     </div>
   </nav>
 </template>
